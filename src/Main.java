@@ -35,7 +35,9 @@ public class Main {
         //  " de edad y mide " + ALTURA_NICOLAS + " mts");
 
 
-*/
+       */
+
+        System.out.println("Hola a todos");
 
 
         //CREACION DE ANIMALES

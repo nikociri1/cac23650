@@ -1,3 +1,4 @@
+import animales.Auto;
 import animales.Delfin;
 import animales.Gato;
 
@@ -44,11 +45,16 @@ public class Main {
 
         Gato gatito= new Gato("Cleo","amarillo",2.0,0.75,true);
         Delfin delfi= new Delfin();
+        Auto autito = new Auto();
 
-        System.out.println("[Mi gato se llama : "+ gatito.getNombre()"]");
+        System.out.println("[Mi gato se llama : "+ gatito.getNombre()+"]");
 
         System.out.println(gatito.moverse());
         System.out.println(delfi.moverse());
+        System.out.println(autito.moverse());
+
+
+
 
 
     }

@@ -1,6 +1,6 @@
 package animales;
 
-public class Animal {
+public abstract class Animal implements Movible{
 
     // Atributos de un animal
     String nombre;
@@ -8,7 +8,7 @@ public class Animal {
     double peso;
     double tamaño;
 
-    //Contructores
+    //Constructores
 
     public Animal(){
 
@@ -59,11 +59,12 @@ public class Animal {
 
 
     //comer
+    public abstract void comer();
 
     //moverse
 
-    public String moverse() {
-        return "El animal puede moverse";
+   public String moverse() {
+       return "El animal puede moverse";
     }
 
     //dormir
